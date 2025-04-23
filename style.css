@@ -1,33 +1,32 @@
-/* Styling for the header */
+/* Apply a different font style to the body */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4; /* Set a background color */
+  margin: 0;
+  padding: 0;
+}
+
+/* Style elements with a class 'content' */
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 2px solid #ccc;
+  background-color: #fff;
+}
+
+/* Style an image to be responsive */
+img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+}
+
+/* Style elements with an ID 'header' */
 #header {
-    text-align: center;
-    color: darkblue;
-    font-family: 'Arial', sans-serif;
-    margin: 20px;
-  }
-  
-  /* Styling for paragraphs with class 'content' */
-  .content {
-    font-family: 'Verdana', sans-serif;
-    font-size: 16px;
-    color: #333333;
-    padding: 10px;
-    margin: 10px 0;
-  }
-  
-  /* Styling for the image */
-  img {
-    max-width: 100%;
-    border: 5px solid #ddd;
-    margin: 20px 0;
-    padding: 10px;
-  }
-  
-  /* Styling for all elements with class 'box' */
-  .box {
-    border: 2px solid #000;
-    padding: 15px;
-    margin: 20px 0;
-    background-color: lightyellow;
-  }
-  
+  text-align: center;
+  color: #333;
+  padding: 20px;
+  background-color: #0073e6;
+  color: white;
+}
